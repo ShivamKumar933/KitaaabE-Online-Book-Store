@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+
+.categories{
+	min-height : 400px;
+    text-align: center;
+    font-size: larger;
+    color: black;
+    padding: 22px;
+}
+
+h1{
+ color: rgb(55, 190, 14);
+ font-size: x-large;
+ text-decoration: underline;
+ padding: 2%;
+}
+
+mark{
+    background-color: aliceblue;
+    color: black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tr,td{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #b5f5ee;
+    
+}
+
+td{
+    /* padding: 10px; */
+    text-overflow: ellipsis; /* Add ellipsis for overflow text */
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+.cart,.buy, .remove{
+    max-width: 100px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    border:1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+ }
+.cart, .remove{
+    color: blue;
+}
+ .buy{
+    color: red;
+  
+ }
+ 
+ .buybutton, .cartbutton, .removebutton{
+ 	flex:1;
+ 	text-align:center;
+ }
+
+ .pricing {
+     font-family: Arial, sans-serif;
+     display: inline-flex;
+     align-items: baseline;
+     text-align: center;
+     gap: 10px;
+     padding: 10px 0;
+ }
+ .amt {
+     font-size: 24px;
+     color: #4CAF50;
+     font-weight: bold;
+ }
+ .rs {
+     font-size: 18px;
+     text-decoration: line-through;
+     color: #888;
+ }
+ .discount {
+     font-size: 16px;
+     color: #FF5733;
+     font-weight: bold;
+ }
+
+ .bookimg{
+    margin-top: 5px;
+    width: 150px;
+    height: 180px;
+ }
+
+ .booktitle{
+   display: flexbox;
+   width: 190px;
+   text-align: center;
+   margin: auto;
+   overflow: hidden;
+   text-overflow: ellipsis;
+ }
+
+ .shopbutton{
+    margin-bottom: 10px;
+    display : flex;
+    justify-content:center;
+    align-items : center;
+ }
+ 
+ button{
+ 	cursor : pointer;
+ }
+ 
+ .back-button{
+    text-decoration: underline;
+    border: none;
+    background-color: #fff;
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.no_item_container{
+    min-height: 450px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

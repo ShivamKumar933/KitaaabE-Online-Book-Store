@@ -1,0 +1,60 @@
+# Maven specific files
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/mvnw
+**/mvnw.cmd
+**/.mvn/
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+*.prefs
+
+# NetBeans specific files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code specific files
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Java specific files
+*.class
+
+# Generated files
+*.war
+*.jar
+*.ear
+
+# Ignore sensitive properties files
+*.secret.properties
+*.local.properties
+dataconfig.properties
+
+# Include a sample properties file for reference
+!configExample.properties

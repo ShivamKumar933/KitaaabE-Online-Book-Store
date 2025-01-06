@@ -1,0 +1,86 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>LoginUser</servlet-name>
+  	<display-name>LoginUser</display-name>
+  	<description></description>
+  	<servlet-class>MainFiles.LoginUser</servlet-class>
+  </servlet>
+  
+  <servlet>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<display-name>RegisterUser</display-name>
+  	<description></description>
+  	<servlet-class>MainFiles.RegisterUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddToCart</servlet-name>
+  	<display-name>AddToCart</display-name>
+  	<description></description>
+  	<servlet-class>MainFiles.AddToCart</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RemoveFromCart</servlet-name>
+  	<display-name>RemoveFromCart</display-name>
+  	<description></description>
+  	<servlet-class>MainFiles.RemoveFromCart</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LogOutUser</servlet-name>
+  	<display-name>LogOutUser</display-name>
+  	<description></description>
+  	<servlet-class>MainFiles.LogOutUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddToOrder</servlet-name>
+  	<display-name>AddToOrder</display-name>
+  	<description></description>
+  	<servlet-class>MainFiles.AddToOrder</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateCart</servlet-name>
+  	<display-name>UpdateCart</display-name>
+  	<description></description>
+  	<servlet-class>MainFiles.UpdateCart</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>LoginUser</servlet-name>
+  	<url-pattern>/Loginservlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>RegisterUser</servlet-name>
+  	<url-pattern>/Registerservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddToCart</servlet-name>
+  	<url-pattern>/addtocart</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+  	<servlet-name>RemoveFromCart</servlet-name>
+  	<url-pattern>/removefromcart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LogOutUser</servlet-name>
+  	<url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddToOrder</servlet-name>
+  	<url-pattern>/addtoorder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateCart</servlet-name>
+  	<url-pattern>/UpdateCart</url-pattern>
+  </servlet-mapping>
+  
+ <welcome-file-list>
+ 	<welcome-file>learn.jsp</welcome-file>
+ 	<welcome-file>Login.jsp</welcome-file>
+ </welcome-file-list>
+
+</web-app>
